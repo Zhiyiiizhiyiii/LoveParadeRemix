@@ -113,11 +113,10 @@ setEffect(7, FILTER, FILTER_FREQ, 200, 18.6, 10000, 21.6)
 
 # PAUSE & VOCAL DROP (measures 21.6-23.6)
 fitMedia(vocal, 8, 21.6, 23.6)
-# Add dramatic reverb to vocal only
+# Add reverb to vocal only
 setEffect(8, REVERB, REVERB_TIME, 2000)
 
 # HARDSTYLE DROP (measures 23.6-31.6)
-# Pounding hardstyle kick pattern
 fitMedia(hardstyle_kick, 1, 23.6, 31.6)
 fitMedia(hardstyle_bass, 4, 23.6, 31.6)
 fitMedia(reverse_bass, 9, 23.6, 31.6)
